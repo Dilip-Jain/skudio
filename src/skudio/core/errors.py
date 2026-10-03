@@ -30,3 +30,7 @@ class SkudioError(Exception):
 
 class IRError(SkudioError):
     """IR construction, load, or migration failed."""
+
+
+class RegistryError(SkudioError):
+    """Unknown or duplicate component registration."""
